@@ -23,8 +23,7 @@ then
     for i in {1..$number}
     do
     sudo docker run -d ubuntu /bin/bash -c 'while true ; do echo Hello ; sleep 1; done' 2>/dev/null
-    done
-    
+    done   
 elif [ $choice == "3" ]
 then
     echo -e "Choose image to delete: centos/ubuntu/php\n"
