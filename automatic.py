@@ -62,3 +62,7 @@ def menu():
         if(exit=="yes"):
             print("Were done.\n")
             break
+
+            
+##### from here thre script will start ####
+main()
